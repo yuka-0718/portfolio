@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Yuka Sakaguchi's Web Page</title>
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:500,700|Source+Sans+Pro:300,400,400i,600i" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Yuka Sakaguchi</h1>
+    <p class="intro"> I'm a <span class="intro_strong">fourth year undergraduate</span> majoring <span class="intro_strong">English literature</span> at <span class="intro_strong">Doshisha University</span>.</p>
+    <div class="section">
+      <h2>Career</h2>
+        <table>
+          <tr><td>July 1997</td><td>born on July 18</td></tr>
+          <tr><td>March 2016</td><td>graduated from Nanzan Girls' Junior & Senior High School</td></tr>
+          <tr><td>April 2016</td><td>started school at Doshisha University</td></tr>
+          <tr><td>September 2017~June 2018</td><td>studied at The University of Sheffield in the UK</td></tr>
+        </table>
+    <div class="section">
+      <h2>Photos</h2>
+      <img id="mypic" onclick="slideshow()" src="IMG_0404.jpg" width="500" height="500">
+          <script>
+            var pics_src = new Array("IMG_0404.jpg", "IMG_1140.jpg","IMG_3138.jpg","IMG_8628.jpg", "IMG.jpg");
+            var num = 0;
+
+            function slideshow(){
+                if (num == 4) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("mypic").src=pics_src[num];
+            }
+          </script>
+    </div>
+    <div class="section">
+      <h2>Link</h2>
+      <div class="btn-wrapper">
+        <a href="https://www.facebook.com/yuka.skgc.3979" class="btn facebook"><span class="fa fa-facebook"></span>Facebook</a>
+        <a href="https://twitter.com/Syam3979" class="btn twitter"><span class="fa fa-twitter"></span>Twitter</a>
+        <a href="https://www.instagram.com/yuka_0718/" class="btn instagram"><span class="fa fa-instagram"></span>Instagram</a>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Contact Me</h2>
+      <p>Name *</p>
+      <input>
+      <p>E-mail address *</p>
+      <input>
+      <p>Message *</p>
+      <textarea></textarea>
+      <p>*Mandatory fields</p>
+      <input class="contact-submit" type="submit" value="Submit">
+    </div>
+  </div>
+</body>
+</html>
