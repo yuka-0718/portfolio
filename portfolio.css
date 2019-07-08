@@ -1,0 +1,88 @@
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #292926;
+    font-weight: 500;
+    line-height: 30px;
+}
+body{
+    margin: 0;
+    border: 25px solid #866cba;
+    padding: 15px;
+}
+.container{
+    margin: 0;
+    border: 3px solid #7fbdb2;
+    padding: 40px;
+}
+h1{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 55px;
+    color: #b83237;
+    font-weight:700;
+    line-height: 65px;
+}
+h2{
+    font-size: 40px;
+    color: #59BFB3;
+    font-style: italic;
+}
+p{
+    margin: 0 0 0 30px;;
+    padding: 0;
+}
+.intro{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+}
+.intro_strong{
+    font-size: 30px;
+    font-weight: 700;
+}
+.section {
+    padding-top: 40px;
+}
+table{
+    margin: 0 0 0 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+td{
+    margin: 0;
+    padding: 0 30px 0 0;
+}
+img#mypic {
+    margin: 0 0 0 30px;
+}
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+.twitter {
+    background-color: #55acee;
+    margin-right: 10px;
+}
+.instagram {
+    background-color: #f09433
+}
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin: 0 0 0 30px;
+}
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab
+}
